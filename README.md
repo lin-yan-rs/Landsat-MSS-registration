@@ -21,7 +21,7 @@ The program generates the following outputs:
     (i) registered images - a stack of registered images; 
     (ii) unregistered images - a stack of the original unregistered images; 
     (iii) registration parameters and accuracy - an ASCII file containing registration parameters for each MSS image and the registration accuracy statistics; 
-    (iv) matching results - resutls of dense least-squares matching between every pair of MSS-MSS and MSS-OLI images.
+    (iv) results of dense least-squares matching between every pair of MSS-MSS and MSS-OLI images (in "matchings" folder).
 
 Reference outputs: 
 the results from a successful run of the software, for reference, can be accessed at https://drive.google.com/file/d/1vqpbgicTdABiiypezZ7hKVLUHzljHyJK/view?usp=sharing

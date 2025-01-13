@@ -4,7 +4,7 @@ Features:
     (i) many-to-many matching strategy to better ensure mutual registration of MSS-MSS images and MSS-OLI images; 
     (ii) radial-basis-function (RBF) to accommodate geometric distortions in MSS images; 
     (iii) least-squares adjustment to provide optimal solution to the many-to-many matchings;
-    (iv) high-precision least-square matching algorithm implementation (better than 0.01 pixels)
+    (iv) expert implementation of the least-square matching algorithm providing high matching accuracy (better than 0.01 pixels)
 
 Prerequisites: 
     (i) Windows Visual Studio 2019 (or compatible versions); 

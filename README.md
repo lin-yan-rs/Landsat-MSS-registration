@@ -6,7 +6,7 @@ Prerequisites:
 
 How to run the program: 
         (i) create a new project in Windows Visual Studio; 
-        (ii) add the provided source files (.c and .h) to the project; 
+        (ii) add the source files (.cpp and .h) to the project; 
         (iii) open the 042036_list_all.txt ASCII file in the testdata folder, update the file paths for the four binary images in the "testdata/binary" folder; 
         (iv) open the LSRegistration_main.cpp file, update variables to specify the paths to the test data folder and the 042036_list_all.txt file; 
         (v) run the Program in Visual Studio (Release mode: Press Alt + F5 to run; Debug mode: Press F5 to run). 

@@ -23,7 +23,7 @@ The program generates the following outputs:
     (iii) registration parameters and accuracy - an ASCII file containing registration parameters for each MSS image and the registration accuracy statistics; 
     (iv) matching results - dense least squares matching resutls between every two images.
 
-Reference outputs
-The results from a successful run of the software, for reference, can be accessed at https://drive.google.com/file/d/1vqpbgicTdABiiypezZ7hKVLUHzljHyJK/view?usp=sharing
+Reference outputs: 
+the results from a successful run of the software, for reference, can be accessed at https://drive.google.com/file/d/1vqpbgicTdABiiypezZ7hKVLUHzljHyJK/view?usp=sharing
 
 If you use this software, please cite the following paper: Yan, L., Roy, D.P. Using Landsat 8 and 9 Operational Land Imager (OLI) data to characterize geometric distortion and improve geometric correction of Landsat Multispectral Scanner (MSS) imagery.

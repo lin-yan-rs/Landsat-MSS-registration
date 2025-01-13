@@ -1,8 +1,8 @@
 This repository contains C code for registering Landsat Multispectral Scanner (MSS) L1TP time series to Landsat 8/9 Operational Land Imager (OLI) L1TP reference images.
 
 Prerequisites: 
-    Windows Visual Studio 2019 (or compatible versions); 
-    test data included in the repository ("testdata" folder containing two Landdsat 1 MSS L1TP images and two Landsat 9 L1TP images).
+    (i) Windows Visual Studio 2019 (or compatible versions); 
+    (ii) test data included in the repository ("testdata" folder containing two Landdsat 1 MSS L1TP images and two Landsat 9 L1TP images).
 
 How to run the program: 
         (i) create a new project in Windows Visual Studio 2019; 

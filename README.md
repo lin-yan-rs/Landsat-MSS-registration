@@ -18,10 +18,10 @@ How to run the program:
     (v) run the program in Visual Studio (Release mode: Press Alt + F5 to run; Debug mode: Press F5 to run). 
 
 The program generates the following outputs:
-    (i) registered images - a stack of registered images; 
-    (ii) unregistered images - a stack of the original unregistered images; 
-    (iii) registration parameters and accuracy - an ASCII file containing registration parameters for each MSS image and the registration accuracy statistics; 
-    (iv) results of dense least-squares matching between every pair of MSS-MSS and MSS-OLI images (in "matchings" folder).
+    (i) a stack of registered images; 
+    (ii) a stack of the original unregistered images; 
+    (iii) an ASCII file containing registration parameters for each MSS image and the registration accuracy statistics; 
+    (iv) intermediate results of dense least-squares matching between every pair of MSS-MSS and MSS-OLI images (in "matchings" folder).
 
 Reference outputs: 
 the results from a successful run of the software, for reference, can be accessed at https://drive.google.com/file/d/1vqpbgicTdABiiypezZ7hKVLUHzljHyJK/view?usp=sharing

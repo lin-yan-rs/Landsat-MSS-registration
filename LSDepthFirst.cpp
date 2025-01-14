@@ -2240,7 +2240,7 @@ int DenseMatching_UC_v2(LSDepthFirstRegistration* pLSReg, int iLayer, int iSampl
 	iTransformationType = 0;
 	
 	// pixel-to-pixel matching with no shifts
-	corr_threshold = 0.96;	
+	corr_threshold = 0.99;	
 	diff_threshold = 2;
 	
 	// get (pyramid) image names

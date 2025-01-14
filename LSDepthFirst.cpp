@@ -2119,26 +2119,7 @@ Note
 2. Two thresholds (shtMeanDiffThreshold and shtBandValueThreshold) are used. shtMeanDiffThreshold is used to exclude matching on cloudy patches.
 shtBandValueThreshold is used to excluded water. See notes for LSMatching_SAM().
 3. shtBandValueThreshold is used assuming the input image1 and image 2 are NIR images.
-4. The dense matching results are theoretically independent on the transformation type, which is automatically selected.
-1/9/2020: output pfParalaxMap as the 5th layer
-1/27/2020: add parameter bExtensive; default = false and output .v11_ext; = true to apply LSMatching_SAM_v1() and output .v11
-1/28/2020: add corr_threshold_ext and diff_threshold_ext
-1/28/2020: make corr_threshold_ext adaptive, [0.985, 0.995] <-> [2*dRMSE, 3*dRMSE]
-_UC: created 7/26/2021
-_UC_v1 (7/28/2021)
--no bExtensive parameter
--add iMatchingMode prameter
-	if = 0, normal depth-first-based dense matching
-	if = 1, do not use depth-first matching results, just do pixel-to-pixel matching with no shifts; add "_1" in output file name
-	if = 2, same as 1 except add "_2" in output file name
--use LSMatching_SAM_UC_precise() and scale-distort criteria
--use shrinking matching windows instead of enlarging matching windows
-7/22/2022: added (dif<= 4 && corr>=0.995) condition
-v2 (7/27/2022): used for MSS L1TP dense matching
-- do pixel-by-pixel dense matching with initial window matching
-- remove parameter 'iMatchingMode'
-- add parameter iHalfSearchWindow
-- no iterations with decreased match window
+4. The dense matching results are theoretically independent on the transformation type, which is automatically selected.fnote
 ***/
 int DenseMatching_UC_v2(LSDepthFirstRegistration* pLSReg, int iLayer, int iSamplingInterval, int iHalfWindow, int iHalfSearchWindow)
 {

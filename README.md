@@ -8,7 +8,7 @@ Features:
 
 Prerequisites: 
     (i) Windows Visual Studio 2019 (or compatible versions); 
-    (ii) MSS and OLI images saved as separate binary files as those in the test data included in the repository (containing two Landdsat 1 MSS L1TP images and two Landsat 9 L1TP images).
+    (ii) MSS and OLI images saved as separate binary files as those in the test data included in the repository (containing two Landdsat 1 MSS L1TP NIR-band 0.8–1.1 μm images and two Landsat 9 L1TP NIR-band images).
 
 How to run the program: 
     (i) create a new project in Windows Visual Studio; 

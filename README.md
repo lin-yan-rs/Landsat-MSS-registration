@@ -10,7 +10,7 @@ Prerequisites:
     (i) Windows Visual Studio 2019 (or compatible versions); 
     (ii) MSS and OLI images saved as separate binary files as those in the test data included in the repository (containing two Landdsat 1 MSS L1TP images and two Landsat 9 L1TP images).
 
-How to run the program with the test data: 
+How to run the program: 
     (i) create a new project in Windows Visual Studio; 
     (ii) add the source files (.cpp and .h) to the project; 
     (iii) open the "042036_list_all.txt" ASCII file in the "testdata" folder, update the file paths for the four binary images in the "testdata/binary" folder; 

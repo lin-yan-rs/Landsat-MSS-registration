@@ -19,7 +19,7 @@ How to run the program:
 
 The program generates the following outputs:
     (i) a binary-file stack of registered images; 
-    (ii) a binary-file stack of the original unregistered images; 
+    (ii) a binary-file stack of the original unregistered images (for visual comparisions with the registered images); 
     (iii) an ASCII file containing registration parameters for each MSS image and the registration accuracy statistics; 
     (iv) intermediate results of dense least-squares matching between every pair of MSS-MSS and MSS-OLI images (in "matchings" folder).
 

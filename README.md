@@ -8,13 +8,13 @@ Features:
 
 Prerequisites: 
     (i) Windows Visual Studio 2019 (or compatible versions); 
-    (ii) MSS and OLI images saved as separate binary files as those in the test data included in the repository (containing two Landdsat 1 MSS L1TP NIR-band 0.8–1.1 μm images and two Landsat 9 L1TP NIR-band images).
+    (ii) MSS and OLI images saved as separate binary files as those in the test data (containing two Landdsat 1 MSS L1TP NIR-band 0.8–1.1 μm images and two Landsat 9 L1TP NIR-band images, all Collection 2).
 
 How to run the program: 
     (i) create a new project in Windows Visual Studio; 
     (ii) add the source files (.cpp and .h) to the project; 
     (iii) open the "042036_list_all.txt" ASCII file in the "testdata" folder, update the file paths for the four binary images in the "testdata/binary" folder; 
-    (iv) open the "LSRegistration_main.cpp" file, update variables to specify the paths to the test data folder and the "042036_list_all.txt" file; 
+    (iv) open the "LSRegistration_main.cpp" file, update variables (data/file paths); 
     (v) run the program in Visual Studio (Release mode: Press Alt + F5 to run; Debug mode: Press F5 to run). 
 
 The program generates the following outputs:

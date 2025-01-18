@@ -20,7 +20,7 @@ int main(int argc, char** argv)
 	char cTarget_pathrow[STRLEN];
 	int iRBFs_K = 64;
 	int iControl_idx = 0;
-	int iDenseMatching_interval = 50; // dense matching interval; set to every 50 pixels for faster running
+	int iDenseMatching_interval = 50; // dense matching every 50 pixels
 
 	iControl_idx = -1; // -1 means all Landsat 8/9 images are used as controls (references)
 

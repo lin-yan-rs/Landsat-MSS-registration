@@ -20,7 +20,7 @@ int main(int argc, char** argv)
 	char cTarget_pathrow[STRLEN];
 	int iRBFs_K = 64;
 	int iControl_idx = 0;
-	int iDenseMatching_interval = 50; // dense matching every 50 pixels
+	int iDenseMatching_interval = 50; // dense matching every 50 pixels for faster computation (default = 10)
 
 	iControl_idx = -1; // -1 means all Landsat 8/9 images are used as controls (references)
 
@@ -37,20 +37,20 @@ int main(int argc, char** argv)
 	Landsat_registration* pLandsat_reg = new Landsat_registration(cImageList_L1TP, "", cOutputDir, width, height, iDenseMatching_interval);
 	
 	// Step 1: many-to-many dense least-squares matching
-	// parameters (true, 1, 5)
+	// parameters - (true, 1, 5)
 	//  true: output a matching summary file used in least-squares adjustment
-	//  1: matching strategy mode; = 1 means apply many-to-many matching for all image pairs
-	//  5: half search window size; = 5 means the search window is 11 x 11
+	//  1: matching strategy mode; = 1 means apply normal many-to-many matching for all image pairs
+	//  5: half search window size
 	pLandsat_reg->L1TPScanning_v1(true, 1, 5);
 	
 	// Step 2: least-squares adjustment to calcualte RBF tranformation parameters for target (non-control) images 
-	// parameters (iRBFs_K, iControl_idx)
+	// parameters - (iRBFs_K, iControl_idx)
 	//  iRBFs_K: number of K for RBF (see paper); = 64 means image space is evenly split to 8 x 8 grid cells
 	//  iControl_idx: index of the control (reference) image, starting from 0; = -1 means all Landsat 8/9 images are used as controls
 	pLandsat_reg->Adjustment_RBFs_v1(iRBFs_K, iControl_idx);
 	
 	// Step 3: output registered images
-	// parameters (true, iRBFs_K, iControl_idx)
+	// parameters - (true, iRBFs_K, iControl_idx)
 	//  true: whether output a stack of the original images
 	//  iRBFs_K, iControl_idx: same as above
 	pLandsat_reg->OutputRegisteredImagesStack_RBFs(true, iRBFs_K, iControl_idx);

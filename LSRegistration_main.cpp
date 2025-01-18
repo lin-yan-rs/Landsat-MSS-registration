@@ -28,7 +28,7 @@ int main(int argc, char** argv)
 	// image names in list_all.txt should be Landsat Collection 2 scene IDs that are used to determine Landsat sensors (1-9) and acquisition dates
 	// images should be sorted ascendingly by acquisition dates
 	// images should have the same size
-	sprintf_s(cTarget_pathrow, STRLEN, "042036"); // does not have to a path/row name
+	sprintf_s(cTarget_pathrow, STRLEN, "042036"); // does not have to be a path/row name
 	width = 4933; // image size
 	height = 4109;
 	sprintf_s(cOutputDir, STRLEN, "D:/Lin/MSS/MSS_L1TP_1-5/LSRegistration_MSS1-3_dense_matching/Public_Release/testdata");

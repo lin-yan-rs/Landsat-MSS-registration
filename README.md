@@ -24,6 +24,6 @@ The program generates the following outputs:
     (iv) intermediate results of dense least-squares matching between every pair of MSS-MSS and MSS-OLI images (in "matchings" folder).
 
 Reference outputs: 
-the results from a successful run of the software, for reference, can be accessed at https://drive.google.com/file/d/1vqpbgicTdABiiypezZ7hKVLUHzljHyJK/view?usp=sharing
+the results from a successful run of the software, for reference, can be accessed at https://drive.google.com/file/d/1dbslAURj4qHPSDWG73aMAbMzOkGP1tEC/view?usp=sharing.
 
 Please cite the following paper for software usage: Yan, L., Roy, D.P. (2025). Using Landsat 8 and 9 Operational Land Imager (OLI) data to characterize geometric distortion and improve geometric correction of Landsat Multispectral Scanner (MSS) imagery. Remote Sensing of Environment. In Review.

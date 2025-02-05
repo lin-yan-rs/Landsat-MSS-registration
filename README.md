@@ -15,7 +15,7 @@ How to run the program:
     (ii) add the source files (.cpp and .h) to the project; 
     (iii) open the "042036_list_all.txt" ASCII file in the "testdata" folder, update the file paths for the four binary images in the "testdata/binary" folder; 
     (iv) open the "LSRegistration_main.cpp" file, update variables (data/file paths); 
-    (v) run the program in Visual Studio (Release mode: Press Alt + F5 to run; Debug mode: Press F5 to run). 
+    (v) run the program in Visual Studio (Release mode: Press Ctrl + F5 to run; Debug mode: Press F5 to run). 
 
 The program generates the following outputs:
     (i) a binary-file stack of registered images; 
